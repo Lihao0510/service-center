@@ -1,0 +1,10 @@
+server:
+  port: 8201
+
+eureka:
+  instance:
+    hostname: eureka.liritian.top
+
+  client:
+    register-with-eureka: false
+    fetch-registry: false
